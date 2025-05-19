@@ -238,9 +238,9 @@ AT_CHECK([ovs-appctl netdev-dummy/ip4addr br0 192.0.2.1/24], [0], [OK
 
 dnl Check standard rules exist.
 AT_CHECK([ovs-appctl ovs/route/rule/show], [0], [dnl
-0: from all lookup local
-32766: from all lookup main
-32767: from all lookup default
+Cached: 0: from all lookup local
+Cached: 32766: from all lookup main
+Cached: 32767: from all lookup default
 ])
 
 OVS_VSWITCHD_STOP

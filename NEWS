@@ -27,6 +27,8 @@ Post-v3.5.0
        add/delete a route from a specific OVS table.
      * 'ovs/route/lookup': added new option, src=IP, to perform lookup with
        a specific source IP address.
+     * Added new sub-commands, ovs/router/rule/{add,del}, to add and remove
+       user routing rules in OVS.
    - SSL/TLS:
      * Support for deprecated TLSv1 and TLSv1.1 protocols on OpenFlow and
        database connections is now removed.
