@@ -1,5 +1,6 @@
 Post-v3.5.0
 --------------------
+   - CI: dummy change to trigger CI
    - Bonding:
      * Bond rebalancing log messages of INFO log level are highly reduced: they
        are now printed once in rebalance run.  Previous detailed log messages
